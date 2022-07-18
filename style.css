@@ -1,0 +1,21 @@
+#increment-btn {
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: gray;
+    border-radius: 10px;
+
+}
+.container {
+    background-image: url('./image/background1.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
