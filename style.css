@@ -6,6 +6,8 @@
     padding-right: 10px;
     border-color: gray;
     border-radius: 10px;
+    width: 150px;
+    font-weight: bold;
 
 }
 .container {
@@ -18,4 +20,20 @@
     padding-top: 100px;
 
 }
+#save-btn {
+    background-color: pink;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: gray;
+    border-radius: 10px;
+    width: 150px;
+    font-weight: bold;
+}
+
+
+    
+
+
 
