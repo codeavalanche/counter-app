@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calc-con">
+        <nav>
+            <ul>
+                <a href="index.html"><li>counter</li></a>
+                <li>calculator</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="calc-con2">
+        <label for="">first-number</label>
+        <input type="text" id="first-number">
+        <label for="">second-number</label>
+        <input type="text" id="second-number"><br><br>
+        <button id="save-btn" onclick="add()">Add</button>
+        <button id="save-btn" onclick="subtract()">subtract</button>
+        <button id="save-btn" onclick="multiply()">multiply</button>
+        <button id="save-btn" onclick="divide()">divide</button>
+        <p id="total">total:</p>
+    </div>
+    <script src="style.js"></script>
+</body>
+</html>

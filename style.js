@@ -14,3 +14,30 @@ function save() {
     count = 0
 }
 
+let firstNumber;
+let secondNumber;
+let totalEl = document.getElementById("total")
+
+
+
+function add() {
+    firstNumber = document.getElementById("first-number").value
+    secondNumber = document.getElementById("second-number").value
+    totalEl.textContent = "Total:" + Number(firstNumber) + Number(secondNumber)
+}
+function multiply() {
+    firstNumber = document.getElementById("first-number").value
+    secondNumber = document.getElementById("second-number").value
+    totalEl.textContent = "Total:" + Number(firstNumber) * Number(secondNumber)
+}
+function subtract() {
+    firstNumber = document.getElementById("first-number").value
+    secondNumber = document.getElementById("second-number").value
+    let result = firstNumber - secondNumber
+    totalEl.textContent = "Total:" + result
+}
+function divide() {
+    firstNumber = document.getElementById("first-number").value
+    secondNumber = document.getElementById("second-number").value
+    totalEl.textContent = "Total:" + Number(firstNumber) / Number(secondNumber)
+}
